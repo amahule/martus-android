@@ -1,3 +1,4 @@
 martus-android/bin/*
+com.martus.android.MatrusActivity/bin/*
 .DS_Store
 .project
