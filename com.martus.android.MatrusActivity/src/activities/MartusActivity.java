@@ -63,7 +63,6 @@ public class MartusActivity extends Activity {
                       for(int i = 0; i < result.size(); ++i)
                         {
                           Object[] summary = (Object[]) result.get(i);
-                          Log.d("martus" , "NetworkResponse data sixe" + summary.length);
                           for(int l = 0; l < summary.length; ++l){
                               Log.d("martus" , "NetworkResponse getResultVector data: "+ summary[l]);
                               serverVersion.setText("ServerInfo version ("+summary[l].toString()+")");
